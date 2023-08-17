@@ -36,7 +36,6 @@ function App() {
         <input
           type="text"
           name="nombreLibro"
-          value={nombreLibro}
           onChange={(event) => setNombreLibro(event.target.value)}
         />
 
@@ -44,7 +43,6 @@ function App() {
         <input
           type="text"
           name="autorLibro"
-          value={autorLibro}
           onChange={(event) => setAutorLibro(event.target.value)}
         />
 
@@ -52,7 +50,6 @@ function App() {
           <input
             type="text"
             name="nombreEstudiante"
-            value={nombreEstudiante}
             onChange={(event) => setNombreEstudiante(event.target.value)}
           />
           
