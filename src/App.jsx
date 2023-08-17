@@ -15,7 +15,7 @@ function App() {
       event.preventDefault();
   
         // Validaciones
-        if ((nombreLibro.trim().length < 3 || /^\s+/.test(nombreLibro)) || (autorLibro.length < 6) || (nombreEstudiante.length < 6))  {
+        if ((nombreLibro.trim().length < 3 || /^\s+/.test(nombreLibro)) || (autorLibro.trim().length < 6) || (nombreEstudiante.trim().length < 6))  {
           setErrorMessage('Por favor chequea que la información proporcionada sea correcta');
           setShowCard(false);
           return;
