@@ -19,10 +19,11 @@ function App() {
           setErrorMessage('Por favor chequea que la información proporcionada sea correcta');
           setShowCard(false);
           return;
-        }
+        } else{
         // Si pasa validaciones
         setShowCard(true);
         setErrorMessage('');
+        }
     };
 
   return (
