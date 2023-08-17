@@ -5,5 +5,49 @@
   text-align: center;
 }
 
+.main-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e6a7b7; 
+}
+
+.main-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #0d0c0c; 
+}
+
+.main-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #E6E6FA; 
+  color: #333; 
+}
+
+.main-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #7a1646; 
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 8px;
+  font-size: 14px;
+}
 
 
